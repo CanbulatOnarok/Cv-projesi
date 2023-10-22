@@ -128,3 +128,95 @@
     font-size: 2rem;
     padding: 5%;
 }
+/* Ekran genişliği 600px'den küçükse */
+@media screen and (max-width: 600px) {
+    .width-25, .width-50, .width-75 {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+
+    .bio h1 {
+        font-size: 3rem;
+    }
+
+    .bio i {
+        font-size: 1.5rem;
+    }
+
+    .hakkında h3, .yetenekler h3, .aciklma h3, .aciklama-2 h3, .input-area h3, .iletisim-bilgi p {
+        font-size: 1.5rem;
+    }
+
+    .font, .hakkında p, .yetenekler p, .aciklma p, .input-area input, .container p {
+        font-size: 1rem;
+    }
+
+    .image-area img {
+        width: 100%;
+        height: auto;
+    }
+
+    .geri-bildirim img {
+        margin-top: 5%;
+    }
+
+    .input-area button {
+        font-size: 1.5rem;
+    }
+}
+
+/* Ekran genişliği 600px ile 768px arasındaysa */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+    }
+    .image-area img {
+        width: 100%;
+        height: auto;
+    }
+
+    .geri-bildirim img {
+        margin-top: 5%;
+    }
+}
+
+/* Ekran genişliği 768px ile 992px arasındaysa */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .width-25, .width-50, .width-75 {
+        width: 50%;
+    }
+    .content {
+        width: 100%;
+    }
+    .image-area img {
+        width: 100%;
+        height: auto;
+    }
+
+    .geri-bildirim img {
+        margin-top: 5%;
+    }
+}
+
+/* Ekran genişliği 992px ile 1200px arasındaysa */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .width-25, .width-50, .width-75 {
+        width: 33.33%;
+    }
+    .content {
+        width: 100%;
+    }
+    .image-area img {
+        width: 100%;
+        height: auto;
+    }
+
+    .geri-bildirim img {
+        margin-top: 5%;
+    }
+}
